@@ -1,3 +1,4 @@
 Nama :
 NPM :
-Prodi : 
+Program Studi : 
+Fakultas : 
