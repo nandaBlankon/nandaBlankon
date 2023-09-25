@@ -1,0 +1,65 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Mengatur font dan warna latar belakang untuk body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Mengatur tampilan header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Mengatur tampilan navigasi */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Mengatur tampilan bagian-bagian utama */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Mengatur tampilan proyek */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+}
+
+/* Mengatur tampilan link email */
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
